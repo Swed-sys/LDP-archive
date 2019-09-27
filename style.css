@@ -1,0 +1,412 @@
+/*
+    Не менять
+*/
+
+body {
+	padding: 0;
+    font-family: sans-serif;
+    line-height: 18px;
+    width: 1000px;
+    margin-left: 250px;
+    background: #ffffff url(img/bg.png) no-repeat;
+
+}
+
+/*
+    Не менять(тоже)
+*/
+
+footer {
+    padding-top: 10px;
+}
+
+.h2-block {
+	border: 1px solid #92b2f5;
+    background-image: url(img/bg-h2.png);
+	padding-left: 20px;
+	border-left: 10px solid #92b2f5;
+	padding: 10px;
+}
+
+.h2-block:hover {
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+}
+
+p {
+    color: #999999;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+	border-left: #333333;
+}
+
+img {
+    width: 237px;
+    height: 237px;
+    margin-left: 370px;
+}
+
+.description-block {
+	font-size: 56px;
+    font-weight: bold;
+    margin-left: 270px;
+    padding: 30px;
+}
+
+/*
+    LINKS
+*/
+
+.links {
+    width: 153px;
+    position: absolute;
+    bottom: 220px;
+    margin-left: 1030px;
+    border: 1px solid #92b2f5;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.links:hover {
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+.links-medals-links {
+    position: absolute;
+    margin-bottom: 51px;
+    border: 1px solid #92b2f5;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.links-medals-links:hover {
+    text-decoration: underline;
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+.links-ideology-links {
+    position: absolute;
+    margin-bottom: -5px;
+    border: 1px solid #92b2f5;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.links-ideology-links:hover {
+    text-decoration: underline;
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+.links-newspappers-links {
+    position: absolute;
+    margin-bottom: -43px;;
+    border: 1px solid #92b2f5;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.links-newspappers-links:hover {
+    text-decoration: underline;
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+/*
+    МЕДАЛИ
+*/
+
+.links-medals {
+    position: absolute;
+    margin-bottom: 67px;
+    border: 1px solid #92b2f5;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.links-medals:hover {
+    text-decoration: underline;
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+.links-ideology-medals {
+    position: absolute;
+    margin-bottom: 11px;
+    border: 1px solid #92b2f5;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.links-ideology-medals:hover {
+    text-decoration: underline;
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+.links-newspappers-medals {
+    position: absolute;
+    margin-bottom: -27px;;
+    border: 1px solid #92b2f5;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.links-newspappers-medals:hover {
+    text-decoration: underline;
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+/*
+    ИДЕОЛОГИИ
+*/
+
+.links-ideology {
+    position: absolute;
+    margin-bottom: 67px;
+    border: 1px solid #92b2f5;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.links-ideology:hover {
+    text-decoration: underline;
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+
+.links-medals-ideology {
+    position: absolute;
+    margin-bottom: 11px;
+    border: 1px solid #92b2f5;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.links-medals-ideology:hover {
+    text-decoration: underline;
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+.links-newspappers-ideology {
+    position: absolute;
+    margin-bottom: -27px;
+    border: 1px solid #92b2f5;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.links-newspappers-ideology:hover {
+    text-decoration: underline;
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+/*
+    ГАЗЕТЫ
+*/
+
+.links-newspappers {
+    position: absolute;
+    margin-bottom: 67px;
+    border: 1px solid #92b2f5;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.links-newspappers:hover {
+    text-decoration: underline;
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+.links-medals-newspappers {
+    position: absolute;
+    margin-bottom: -45px;
+    border: 1px solid #92b2f5;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.links-medals-newspappers:hover {
+    text-decoration: underline;
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+.links-ideology-newspappers {
+    position: absolute;
+    margin-bottom: 11px;
+    border: 1px solid #92b2f5;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.links-ideology-newspappers:hover {
+    text-decoration: underline;
+    border-color: #5c86e6;
+    border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+/*
+	КРАТКОЕ ОПИСАНИЕ
+*/
+
+.description-list {
+	padding: 0;
+    list-style: none;
+}
+
+.batch-description {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.batch-description:hover {
+	border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+/*
+	ИДЕОЛОГИИ
+*/
+
+.ideology-list {
+	padding: 0;
+	list-style: none;
+}
+
+.ideology {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.ideology:hover {
+	border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+/*
+	МЕДАЛЬКИ
+*/
+
+.medal-list {
+	padding: 0;
+	list-style: none;
+}
+
+.medal {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.medal:hover {
+	border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
+
+/*
+	СПИСОК ГАЗЕТ
+*/
+
+.newspappers-list {
+	padding: 0;
+	list-style: none;
+}
+
+.newspappers {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    border-left: 10px solid #92b2f5;
+    background-color: #bed1eb;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.newspappers:hover {
+	border-left: 10px solid #5c86e6;
+    background-color: #bacae6;
+    color: #ffffff;
+}
